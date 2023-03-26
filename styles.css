@@ -4,10 +4,26 @@
     color: black;
 }
 
-.nav-left {
-    width: 70%;
+/* chnages to 'Log In' link in nNav  */
+.pos-new-log-in-nav-right {
+  position: relative;
+  left: 10px;
+  bottom: 3px;
+  }
+
+  /* changes to globe position in nav*/
+.pos-globe-nav {
+  padding: 20px 10px 0 1px;
 }
 
-.nav-left-anchor {
-    margin-left: 40px;
+.dropdown-toggle::after {
+  display: none;
+}
+
+.navbar2 {
+  width: 100%;
+  margin: auto;
+  font-size: 20px;
+  background-color: rgb(39, 55, 136);
+  color: #FFFFFF;
 }
