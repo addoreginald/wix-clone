@@ -1,45 +1,25 @@
 * {
   font-family: 'Wix Madefor Text', sans-serif;
-  font-family: 'Wix Madefor Display', sans-serif; 
+  font-family: 'Wix Madefor Display', sans-serif;
 }
 
 /* query for different screen size + width */
 /* nav divider left + right properties */
 @media only screen and (min-width: 992px) {
   .navbar .navbar-nav .nav-item .nav-link {
-    padding: -500px 20px;
     line-height: 24px;
     width: auto;
     font-size: 14px;
   }
-
-  .divider-nav-left {
+  
+  .divider-nav {
     border-left: 1px solid hsl(0, 7%, 73%);
-    margin: 0 20px 0 20px;
-    padding: 0 20px;
-    height: 30px;
-  }
-
-  .divider-nav-right {
-    border-left: 1px solid hsl(0, 7%, 73%);
-    margin: 5px 30px 0 30px;
-    height: 30px;
   }
 }
 
-/* changes to 'Log In' link in Nav  */
-.pos-new-log-in-nav-right {
-  margin: 0 0 10px 3px;
-  }
-
-  /* changes to button in second nav */
-.pos-new-btn-nav-right {
+/*button in second nav */
+.new-btn-nav-right {
   background-color: #166aea;
-}
-
-  /* changes to globe position in nav*/
-.pos-globe-nav {
-  padding: 20px 10px 0 1px;
 }
 
 /* remove toggle */
@@ -47,23 +27,65 @@
   display: none;
 }
 
-/* changes to second nav */
-.nav2 {
+/* second nav */
+.second-nav {
   font-size: 20px;
   background-color: hsl(230, 54%, 35%);
+  margin-top: 60px;
 }
 
-/* changes to link in second nav */
-.link-nav2 {
-border-bottom: 2px solid white;
+/* normal state for link in second nav */
+.link-second-nav {
+  border-bottom: 2px solid white;
 }
 
-/* changes to link in hover state in second nav */
-.link-nav2:hover {
-  text-decoration: none;
+/* hover state for link in second nav*/
+.link-second-nav:hover {
+  text-decoration: none !important;
 }
 
-/* changes to arrow in second nav */
-.arrow-nav2 {
-color: hsl(0, 0%, 100%);
+/*normal state link color */
+.hover-link {
+  color: black !important;
+  
+}
+
+/*hover state for link color*/
+.hover-link:hover {
+  color: hsl(239, 74%, 59%) !important;
+}
+
+/* arrow in second nav */
+.arrow-second-nav {
+  color: hsl(0, 0%, 100%);
+}
+
+/* page 2 */
+.pg-two {
+  background-image: linear-gradient(126deg, #2F40AD 27.9051%, #394FB7 39.7138%, #2A3BA9 50.9115%, #394FB7 63.5819%, #354AB5 91.6055%);
+}
+
+/* large text font size segment on page 2  */
+.large-text-pg-two {
+  font-size: 100px;
+  line-height: 100px;
+}
+
+/* medium text font size segment on page 2  */
+.medium-text-pg-two {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+/* button on page 2 */
+.pg-two-btn {
+  position: relative;
+  font-size: 24px !important;
+  font-weight:normal !important;
+}
+
+
+/* page 2 small text font size */
+.small-text-pg-two {
+  font-size: 14px;
 }

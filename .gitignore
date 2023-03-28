@@ -9,3 +9,11 @@ vendor
 
 #Ignore all lock files
 *.lock
+
+#Ignore all webp files
+*.webp
+
+#Ignore all image files
+*.jpg
+*jpeg
+*.png
