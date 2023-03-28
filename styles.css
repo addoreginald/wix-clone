@@ -65,13 +65,13 @@
   background-image: linear-gradient(126deg, #2F40AD 27.9051%, #394FB7 39.7138%, #2A3BA9 50.9115%, #394FB7 63.5819%, #354AB5 91.6055%);
 }
 
-/* large text font size segment on page 2  */
+/* page 2 large text font size */
 .large-text-pg-two {
   font-size: 100px;
   line-height: 100px;
 }
 
-/* medium text font size segment on page 2  */
+/* page 2 medium text font size */
 .medium-text-pg-two {
   font-size: 20px;
   line-height: 1.5em;
@@ -79,13 +79,100 @@
 
 /* button on page 2 */
 .pg-two-btn {
-  position: relative;
   font-size: 24px !important;
   font-weight:normal !important;
 }
-
 
 /* page 2 small text font size */
 .small-text-pg-two {
   font-size: 14px;
 }
+
+/* page 3 */
+.pg-three {
+  padding-top: 130px;
+}
+
+/* large text on page 3 */
+.large-text-pg-three {
+  font-size: 64px;
+}
+
+/* medium text on page 3 */
+.medium-text-pg-three {
+  font-size: 20px;
+}
+
+/* small text on page 3 */
+.small-text-pg-three {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+/* divider on page 3 */
+.divider-pg-three {
+  border: 1px solid black;
+}
+
+/* fade-in on page 3 */
+.box-one {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+/* fade-in on page 3 */
+.box-two {
+  -webkit-animation-delay: 1.7s;
+  -moz-animation-delay: 1.7s;
+  animation-delay: 1.7s;
+}
+
+/* fade-in on page 3 */
+.box-three {
+  -webkit-animation-delay: 2.3s;
+  -moz-animation-delay: 2.3s;
+  animation-delay: 2.3s;
+}
+
+/* fade-in on page 3 */
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+
+
+/* fade-in on page 3 */
+@-webkit-keyframes fadeLeft {
+  from{
+    opacity: 0;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+  to {
+    opacity:1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeLeft {
+  -webkit-animation-name: fadeLeft;
+  animation-name: fadeLeft;
+}
+
+@keyframes fadeLeft {
+  from{
+    opacity: 0;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+  to {
+    opacity:1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
