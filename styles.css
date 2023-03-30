@@ -1,178 +1,50 @@
 * {
   font-family: 'Wix Madefor Text', sans-serif;
   font-family: 'Wix Madefor Display', sans-serif;
-}
-
-/* query for different screen size + width */
-/* nav divider left + right properties */
-@media only screen and (min-width: 992px) {
-  .navbar .navbar-nav .nav-item .nav-link {
-    line-height: 24px;
-    width: auto;
-    font-size: 14px;
-  }
-  
-  .divider-nav {
-    border-left: 1px solid hsl(0, 7%, 73%);
-  }
-}
-
-/*button in second nav */
-.new-btn-nav-right {
-  background-color: #166aea;
-}
-
-/* remove toggle */
-.dropdown-toggle::after {
-  display: none;
-}
-
-/* second nav */
-.second-nav {
-  font-size: 20px;
-  background-color: hsl(230, 54%, 35%);
-  margin-top: 60px;
-}
-
-/* normal state for link in second nav */
-.link-second-nav {
-  border-bottom: 2px solid white;
-}
-
-/* hover state for link in second nav*/
-.link-second-nav:hover {
-  text-decoration: none !important;
-}
-
-/*normal state link color */
-.hover-link {
-  color: black !important;
   
 }
 
-/*hover state for link color*/
-.hover-link:hover {
-  color: hsl(239, 74%, 59%) !important;
-}
-
-/* arrow in second nav */
-.arrow-second-nav {
-  color: hsl(0, 0%, 100%);
-}
-
-/* page 2 */
-.pg-two {
-  background-image: linear-gradient(126deg, #2F40AD 27.9051%, #394FB7 39.7138%, #2A3BA9 50.9115%, #394FB7 63.5819%, #354AB5 91.6055%);
-}
-
-/* page 2 large text font size */
-.large-text-pg-two {
-  font-size: 100px;
-  line-height: 100px;
-}
-
-/* page 2 medium text font size */
-.medium-text-pg-two {
-  font-size: 20px;
-  line-height: 1.5em;
-}
-
-/* button on page 2 */
-.pg-two-btn {
-  font-size: 24px !important;
-  font-weight:normal !important;
-}
-
-/* page 2 small text font size */
-.small-text-pg-two {
-  font-size: 14px;
-}
-
-/* page 3 */
-.pg-three {
-  padding-top: 130px;
-}
-
-/* large text on page 3 */
-.large-text-pg-three {
-  font-size: 64px;
-}
-
-/* medium text on page 3 */
-.medium-text-pg-three {
-  font-size: 20px;
-}
-
-/* small text on page 3 */
-.small-text-pg-three {
+/* font size */
+html {
   font-size: 16px;
-  line-height: 1.6em;
 }
 
-/* divider on page 3 */
-.divider-pg-three {
-  border: 1px solid black;
+/* navbar */
+.navbar-custom {
+  height: 50px;
 }
 
-/* fade-in on page 3 */
-.box-one {
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  animation-delay: 1s;
+/* small font */
+.sm-font-size {
+  font-size: 11px !important;
 }
 
-/* fade-in on page 3 */
-.box-two {
-  -webkit-animation-delay: 1.7s;
-  -moz-animation-delay: 1.7s;
-  animation-delay: 1.7s;
+/* medium font */
+.md-font-size {
+  font-size: 20px !important;
 }
 
-/* fade-in on page 3 */
-.box-three {
-  -webkit-animation-delay: 2.3s;
-  -moz-animation-delay: 2.3s;
-  animation-delay: 2.3s;
+/* large font */
+/* .lg-font-size */
+
+/* divider */
+.divider {
+  align-self: center;
+  border-right: 1px solid hsl(240, 3%, 73%);
+  display: inline-flex;
+  height: 15px;
 }
 
-/* fade-in on page 3 */
-.animate {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  animation-fill-mode: both;
-  -webkit-animation-fill-mode: both;
+/* colors */
+.btn:first-of-type {
+  background-color: hsl(216, 83%, 50%) !important;
 }
 
-
-/* fade-in on page 3 */
-@-webkit-keyframes fadeLeft {
-  from{
-    opacity: 0;
-    -webkit-transform: translate3d(-100%,0,0);
-    transform: translate3d(-100%,0,0);
-  }
-  to {
-    opacity:1;
-    -webkit-transform: none;
-    transform: none;
-  }
+/* hover effects */
+.hover-link:hover {
+color:  	hsl(225, 73%, 57%) !important;
 }
 
-.fadeLeft {
-  -webkit-animation-name: fadeLeft;
-  animation-name: fadeLeft;
+.btn:first-of-type:hover {
+  background-color:hsl(216, 89%, 57%) !important;
 }
-
-@keyframes fadeLeft {
-  from{
-    opacity: 0;
-    -webkit-transform: translate3d(-100%,0,0);
-    transform: translate3d(-100%,0,0);
-  }
-  to {
-    opacity:1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
