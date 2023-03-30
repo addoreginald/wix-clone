@@ -4,30 +4,30 @@
   
 }
 
-/* font size */
+/* Global Font Size */
 html {
   font-size: 16px;
 }
 
-/* navbar */
+/* Navbar */
 .navbar-custom {
   height: 50px;
 }
 
-/* small font */
+/* Small Font */
 .sm-font-size {
   font-size: 11px !important;
 }
 
-/* medium font */
+/* Medium Font */
 .md-font-size {
   font-size: 20px !important;
 }
 
-/* large font */
+/* Large Font */
 /* .lg-font-size */
 
-/* divider */
+/* Divider */
 .divider {
   align-self: center;
   border-right: 1px solid hsl(240, 3%, 73%);
@@ -35,16 +35,23 @@ html {
   height: 15px;
 }
 
-/* colors */
+/* Colors */
 .btn:first-of-type {
   background-color: hsl(216, 83%, 50%) !important;
 }
 
-/* hover effects */
+/* Hover Effects*/
 .hover-link:hover {
-color:  	hsl(225, 73%, 57%) !important;
+color: hsl(225, 73%, 57%) !important;
 }
 
+/* Hover Effects*/
 .btn:first-of-type:hover {
   background-color:hsl(216, 89%, 57%) !important;
+}
+
+/* Banner */
+.banner {
+  background-color: hsl(230, 54%, 35%);
+  font-size: 14px;
 }
