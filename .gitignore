@@ -17,3 +17,9 @@ vendor
 *.jpg
 *jpeg
 *.png
+
+#Ignore woekspace file
+'GIT + Local.code-workspace'
+
+#Ignore file link
+file-links.*

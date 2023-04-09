@@ -1,17 +1,10 @@
 * {
   font-family: 'Wix Madefor Text', sans-serif;
   font-family: 'Wix Madefor Display', sans-serif;
-  
 }
 
-/* Global Font Size */
-html {
-  font-size: 16px;
-}
-
-/* Navbar */
-.navbar-custom {
-  height: 50px;
+body {
+  padding: 60px 0 0 0 !important ;
 }
 
 /* Small Font */
@@ -19,39 +12,326 @@ html {
   font-size: 11px !important;
 }
 
-/* Medium Font */
-.md-font-size {
-  font-size: 20px !important;
-}
-
 /* Large Font */
-/* .lg-font-size */
+.lg-font-size {  margin: 0 0 0 100px !important;
+  font-size: 100px;
+}
 
 /* Divider */
 .divider {
   align-self: center;
   border-right: 1px solid hsl(240, 3%, 73%);
   display: inline-flex;
-  height: 15px;
+  height: 20px;
 }
 
 /* Colors */
-.btn:first-of-type {
-  background-color: hsl(216, 83%, 50%) !important;
+.navbar-btn {
+  background-color:hsl(216, 83%, 50%) !important;
 }
 
 /* Hover Effects*/
 .hover-link:hover {
-color: hsl(225, 73%, 57%) !important;
+  color: hsl(225, 73%, 57%) !important;
 }
 
 /* Hover Effects*/
-.btn:first-of-type:hover {
+.navbar-btn:hover,  .btn-pg-two:hover{
   background-color:hsl(216, 89%, 57%) !important;
 }
 
 /* Banner */
-.banner {
+/* Card Text on Page 7 */
+.banner, .card-text {
   background-color: hsl(230, 54%, 35%);
-  font-size: 14px;
+  font-size: 14px !important;
 }
+
+/* Page 1 */
+.pg-one {
+  background-image: linear-gradient(126deg, hsl(232, 57%, 43%) 27.9051%, hsl(230, 53%, 47%) 39.7138%, hsl(232, 60%, 41%) 50.9115%, hsl(230, 53%, 47%) 63.5819%, hsl(230, 55%, 46%) 91.6055%);
+}
+
+/* Medium Text On Page 1 */
+/* Medium Font */
+.pg-one .md-font-size {
+  font-size: 16px !important;
+  letter-spacing: 1px;
+}
+
+/* Button on Page 1 Normal State */
+.btn-pg-one {
+  padding: 5px 20px 10px 20px;
+}
+
+
+/* Button on Page 1 Normal State */
+.link-arrow p {
+  display: none;
+}
+
+/* Button on Page 1 Hover State */
+.link-arrow {
+  text-decoration: none;
+  color: black;
+}
+
+/* Button on Page 1 Hover State */
+&:hover .btn-pg-one {
+  transform: translate3d(-1rem, 0, 0);
+}
+
+/* Arrow in Button on Page 1 Hover State */
+.link-arrow:hover p {
+  display: inline;
+  transition: 300ms ease-out;
+  transform: translateX(50%);
+}
+
+/* Page 2 */
+.pg-two {
+  padding: 100px 120px 0 120px !important;
+}
+
+/* Main Header on Page 2 */
+/* Main Header on Page 3 */
+/* Main Header on Page 4 */
+.main-header {
+  font-size: 60px !important;
+  line-height: 60px !important;
+}
+
+
+/* Fade-in on Page 2 */
+.box-one {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+/* fade-in on page 4 */ 
+.box-two {
+  -webkit-animation-delay: 1.7s;
+  -moz-animation-delay: 1.7s;
+  animation-delay: 1.7s;
+}
+
+/* fade-in on page 4 */
+.box-three {
+  -webkit-animation-delay: 2.3s;
+  -moz-animation-delay: 2.3s;
+  animation-delay: 2.3s;
+}
+
+/* fade-in on page 4 */
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+
+
+/* fade-in on page 4 */
+@-webkit-keyframes fadeLeft {
+  from{
+    opacity: 0;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+  to {
+    opacity:1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeLeft {
+  -webkit-animation-name: fadeLeft;
+  animation-name: fadeLeft;
+}
+
+@keyframes fadeLeft {
+  from{
+    opacity: 0;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+  to {
+    opacity:1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/* Page 3 */
+.pg-three {
+  padding: 100px 0 0 0 !important;
+}
+
+/* Main header on Page 3 */
+.main-header-pg-three {
+  padding: 100px 0 0 0 !important;
+}
+
+/* Sub-header on Page 3 */
+/* Entire Text Card Segment on Page 2 */
+.sub-header-pg-three, .text-card {
+  font-size: 18px !important;
+  line-height: 25px !important;
+  letter-spacing: 0.50px !important;
+}
+
+/* Carousel container */
+.carousel-container {
+  margin: auto;
+  width: 50%;
+}
+
+/* Left and Right Arrow Control on Carousel */
+.carousel-control-prev, .carousel-control-next {
+  margin: -150px !important;
+}
+
+/* Page 4 */
+.sub-header-pg-four, .sub-heading-pg-five {
+  font-size: 15px !important;
+  line-height: 25px !important;
+  letter-spacing: 0.90px !important;
+}
+
+/* Arrow on Page 4 */
+.arrow  {
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Left Side on Page 5 */
+.img-left-side-pg-five {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+/* Right Side on Page 5 */
+.right-side-pg-five {
+  background-color: hsl(264, 87%, 88%);
+  padding: 200px 0 0 50px !important;
+}
+
+/* Sub-Heading on page 5 */
+.sub-heading-pg-five {
+  line-height: 30px !important;
+}
+
+/* Page 6 */
+.pg-six {
+  background-color: rgb(243, 239, 229);
+  padding: 70px 0 0 0  !important;
+}
+
+/* Main Header on Page 6 */
+.pg-six > .main-header {
+  padding: 0 0 0 117px !important;
+}
+
+/* Sub-Heading on Page 6 */
+.sub-header-pg-six {
+  font-size: 18px !important;
+}
+
+/* Small Text on page 6 */
+.small-text-pg-six {
+  line-height: 25px !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* Main Header on Page 6 */
+.main-header-pg-six {
+  padding: 150px 0 50px 110px !important;
+}
+
+/* Button on Page 6 */
+.btn-pg-six {
+  margin: 0 0 50px 115px !important;
+}
+
+/* Cards on Page 7 */
+.card {
+  margin: 0 -90px 0  0 !important;
+  border: 0 !important;
+}
+
+/* Card Sub-Header on Page 7 */
+.card-text {
+  line-height: 20px !important;
+  letter-spacing: 0.05rem;
+  text-decoration: none !important;
+}
+
+/* Border Bottom on Page 7 */
+.border-card-text {
+  border-bottom: 2px black solid !important;
+}
+
+/* Card Container on Page 7 */
+.card-container {
+  margin: 0 90px 0 150px !important;
+  padding: 0 50px !important;
+}
+
+/* Card body on Page 7 */
+.card-body {
+  margin: 0 0 0 -20px !important;
+}
+
+/*   IGNORE   */
+/* Uncompleted Page 1*/
+/* Grid Parent in Left Image */
+/* .grid-parent-one {
+  position: relative;
+  top: 0px;
+  left: 0px;
+} */
+
+/* Grid Parent in Middle Image */
+/* .grid-parent-two {
+  position: relative;
+} */
+
+/* Grid Child in Middle Image */
+/* .grid-parent-two > .child1 {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}*/
+
+/* Grid Child in Middle Image */
+/* .grid-parent-two > .child2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+} */
+
+/* Grid Child in Center Image */
+/* .grid-parent-two > .child3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+} */
+
+/* Grid Child in Center Image */
+/* .grid-parent-two > .child4 {
+  position: absolute;  <div cla slot=""></div>
+  top: 0px;
+  left: 0px;
+} */
+
+/* Grid Parent in Right Image */
+/* .grid-parent-three {
+  position: relative;
+  top: 0px;
+  left: 0px;
+} */
+/*   IGNORE   */
