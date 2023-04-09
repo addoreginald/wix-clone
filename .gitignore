@@ -1,3 +1,6 @@
+#Ignore .gitignore
+*git*
+
 #Ignore node-nodules folder
 node_modules/
 
