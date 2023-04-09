@@ -43,8 +43,12 @@ body {
 /* Banner */
 /* Card Text on Page 7 */
 .banner, .card-text {
-  background-color: hsl(230, 54%, 35%);
   font-size: 14px !important;
+}
+
+/* Banner */
+.banner {
+  background-color: hsl(230, 54%, 35%);
 }
 
 /* Page 1 */
@@ -91,6 +95,13 @@ body {
 /* Page 2 */
 .pg-two {
   padding: 100px 120px 0 120px !important;
+}
+
+/* Main Text on Page 2 */
+.main-text-pg-two {
+  font-size: 16px;
+  line-height: 20px !important;
+  letter-spacing: 0.5px !important;
 }
 
 /* Main Header on Page 2 */
