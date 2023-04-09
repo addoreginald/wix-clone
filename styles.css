@@ -26,7 +26,7 @@ body {
 }
 
 /* Colors */
-.navbar-btn {
+.navbar .btn {
   background-color:hsl(216, 83%, 50%) !important;
 }
 
@@ -36,7 +36,12 @@ body {
 }
 
 /* Hover Effects*/
-.navbar-btn:hover,  .btn-pg-two:hover{
+.navbar .btn:hover,
+.pg-two .btn:hover,
+.pg-five .btn:hover,
+.pg-nine .btn:hover,
+.pg-ten .btn:hover,
+.pg-twelve .btn:hover {
   background-color:hsl(216, 89%, 57%) !important;
 }
 
@@ -64,10 +69,9 @@ body {
 }
 
 /* Button on Page 1 Normal State */
-.btn-pg-one {
+.pg-one .btn {
   padding: 5px 20px 10px 20px;
 }
-
 
 /* Button on Page 1 Normal State */
 .link-arrow p {
@@ -76,13 +80,13 @@ body {
 
 /* Button on Page 1 Hover State */
 .link-arrow {
-  text-decoration: none;
+  text-decoration: none !important;
   color: black;
 }
 
 /* Button on Page 1 Hover State */
-&:hover .btn-pg-one {
-  transform: translate3d(-1rem, 0, 0);
+.pg-one .btn:hover {
+  transform: translate3d(-1rem, 0, 2rem);
 }
 
 /* Arrow in Button on Page 1 Hover State */
@@ -155,7 +159,7 @@ body {
     -webkit-transform: none;
     transform: none;
   }
-}
+}Go to Help Center
 
 .fadeLeft {
   -webkit-animation-name: fadeLeft;
@@ -177,7 +181,7 @@ body {
 
 /* Page 3 */
 .pg-three {
-  padding: 100px 0 0 0 !important;
+  padding: 100px 0 100px 0 !important;
 }
 
 /* Main header on Page 3 */
@@ -205,7 +209,7 @@ body {
 }
 
 /* Page 4 */
-.sub-header-pg-four, .sub-heading-pg-five {
+.sub-header-pg-four, .sub-header-pg-five {
   font-size: 15px !important;
   line-height: 25px !important;
   letter-spacing: 0.90px !important;
@@ -231,13 +235,13 @@ body {
   padding: 200px 0 0 50px !important;
 }
 
-/* Sub-Heading on page 5 */
-.sub-heading-pg-five {
+/* sub-header on page 5 */
+.sub-header-pg-five {
   line-height: 30px !important;
 }
 
 /* Page 6 */
-.pg-six {
+.pg-six {</p>
   background-color: rgb(243, 239, 229);
   padding: 70px 0 0 0  !important;
 }
@@ -247,7 +251,7 @@ body {
   padding: 0 0 0 117px !important;
 }
 
-/* Sub-Heading on Page 6 */
+/* sub-header on Page 6 */
 .sub-header-pg-six {
   font-size: 18px !important;
 }
@@ -264,8 +268,13 @@ body {
 }
 
 /* Button on Page 6 */
-.btn-pg-six {
-  margin: 0 0 50px 115px !important;
+.pg-six .btn {
+  margin: 50px 0 50px 115px !important;
+}
+
+/* Page 7 */
+.pg-seven {
+  padding: 0 0 100px 0 !important;
 }
 
 /* Cards on Page 7 */
@@ -296,6 +305,94 @@ body {
 .card-body {
   margin: 0 0 0 -20px !important;
 }
+
+/* Main Header on Page 8 */
+.pg-eight .main-header {
+  padding: 250px 50px 100px 50px !important;
+}
+
+/* Sub-Header Text on Page 8 */
+.pg-eight .sub-header {
+  font-size: 18px !important;
+  padding: 0 0 0 50px !important;
+  margin: -80px 0 0 0 !important;
+  line-height: 30px !important;
+  letter-spacing: 1px !important;
+}
+
+/* Background Image on Page 9 */
+.pg-nine .bg-img {
+  width: 70%;
+  height: 50%;
+  margin: 50px 0 0 50px !important;
+  position: relative;
+}
+
+/* Foreground Image on Page 9 */
+.pg-nine .fg-img {
+  position: absolute;
+  top: 7036px;
+  left: 152px;
+}
+
+/* Sub-Header on Page 9 */
+.pg-nine .sub-header {
+  font-size: 18px !important;
+}
+
+/* Left Side on Page 9 */
+.pg-nine .left-side {
+  padding: 270px 0 0 0 !important;
+  margin: 0 0 0 -200px !important;
+}
+
+/* Sub-Header on Page 9 */
+.pg-nine .sub-header {
+  font-size: 18px !important;
+  line-height: 30px !important;
+  letter-spacing: 0.4px !important;
+}
+
+/* Page 10 */
+.pg-ten {
+  background-color: #f0f0f0;
+  padding: 0 5px 0 -100px !important;
+}
+
+/* Left Side on Page 10 */
+.pg-ten .left-side {
+  padding: 150px 100px 0 100px !important;
+}
+
+/* Right Side on page 10 */
+.pg-ten .right-side {
+  margin: 0 0 0 70px !important;
+}
+
+/* Sub-Header on page 10 */
+.pg-ten .sub-header {
+  font-size: 18px !important;
+  line-height: 30px !important;
+  letter-spacing: 0.50px !important;
+}
+
+/* Right Side on Page 10 */
+.pg-ten .right-side {
+  padding: 160px 0 0 0 !important;
+}
+
+/* Page 12 */
+.pg-twelve {
+  padding: 100px 100px 0 100px !important;
+}
+
+/* Right Side on Page 12 */
+.pg-twelve .right-side {
+  font-size:18px !important;
+  line-height: 25px !important;
+  letter-spacing: 1px !important;
+}
+
 
 /*   IGNORE   */
 /* Uncompleted Page 1*/
